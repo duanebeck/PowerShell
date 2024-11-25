@@ -8,5 +8,5 @@
 * At the PowerShell prompt, type:
 
 ```
-LinkDirectories.ps1 -Target S:\Condor2\Landscapes -Source C:\Condor2\Landscapes
+& [IO.Path]::Combine($env:USERPROFILE, 'Documents', 'PowerShell', 'LinkDirectories.ps1') -Target S:\Condor2\Landscapes -Source C:\Condor2\Landscapes
 ```
